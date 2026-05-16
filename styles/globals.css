@@ -66,6 +66,18 @@
   .form-field {
     @apply w-full rounded-xl border border-slate-200 bg-white/80 px-4 py-3 text-sm text-slate-950 shadow-sm transition placeholder:text-slate-400 focus:border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-400/30 dark:border-white/10 dark:bg-white/5 dark:text-white dark:placeholder:text-slate-500;
   }
+
+  .form-field option,
+  .form-field optgroup {
+    color: #0f172a;
+    background: #ffffff;
+  }
+
+  .dark .form-field option,
+  .dark .form-field optgroup {
+    color: #f8fafc;
+    background: #111827;
+  }
 }
 
 @layer utilities {
